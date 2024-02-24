@@ -1,8 +1,13 @@
-title: Just the Docs Template
+title: For Fun & Profit
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+color_scheme: foo
 
-url: https://just-the-docs.github.io
+url: https://fahadsultan.com/csc222
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Moodle: https://github.com/just-the-docs/just-the-docs-template
+  LeetCode: https://github.com/just-the-docs/just-the-docs-template
+  CCSC:SE: https://github.com/just-the-docs/just-the-docs-template
+
+footer_content: "Copyright &copy; 2024 Syed Fahad Sultan. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
