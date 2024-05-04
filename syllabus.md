@@ -9,6 +9,14 @@ has_toc: true
 1. For Fun and Profit: Competitive Programming and Technical Interviews
 {:toc}
 
+## Grading
+
+The breakdown of the course grade is as follows:
+
+* 30% - Class Participation
+* 30% - In-Class Problem Solving
+* 20% - Mock Interviews
+* 50% - Problem Solving Assignments
 
 ## What are on-campus MayX courses?
 
@@ -25,7 +33,7 @@ MayX courses...
 
 ## Prerequisite of the course
 
-**CSC-121**, registration priority based on seniority 
+**CSC-121**: Introduction to Computer Programming
  
 ## Number of credits
 2 credits 
@@ -157,3 +165,9 @@ National University of Singapore: CS3233: Competitive Programming
 ## Travel
 
 The course may involve some travelling for programming competitions taking place in May. 
+
+## Poster 
+
+<center>
+<img style='border:1px solid #888888' width="70%" src="assets/poster.png">
+</center>

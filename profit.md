@@ -1,13 +1,21 @@
 ---
 layout: default
-title: For Profit 💰
+title: For Profit 💰<br/>(Technical Interviews)
 nav_order: 4
 has_toc: true
 has_children: true
 ---
 
-# **For Profit** 💰
+# **For Profit** 💰: Technical Interviews
 {: .no_toc }
+
+🎥 [Software Engineering Job Interview - Full Mock Interview](https://www.youtube.com/watch?v=1qw5ITr3k9E&ab_channel=freeCodeCamp.org)
+
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1t1_a1BZ04o?si=U-JRnyz2buy1HQqC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
 
 1. TOC 
 {:toc}
@@ -136,7 +144,7 @@ has_children: true
 	Solution
 	Medium
 
-## Monotonic Stack
+### Monotonic Stack
 
 	Daily Temperatures
 	Solution
@@ -155,7 +163,7 @@ has_children: true
 	Solution
 	Medium
 
-## Heap / Priority Queue
+### Heap / Priority Queue
 
 	Kth Largest Element in an Array
 	Solution
@@ -191,7 +199,9 @@ has_children: true
 	Solution
 	Medium
 
-## Binary Tree - DFS
+## Binary Tree
+
+### Depth First Search
 
 	Maximum Depth of Binary Tree
 	Solution
@@ -217,7 +227,7 @@ has_children: true
 	Solution
 	Medium
 
-## Binary Tree - BFS
+### Breadth First Search
 
 	Binary Tree Right Side View
 	Solution
@@ -227,7 +237,7 @@ has_children: true
 	Solution
 	Medium
 
-## Binary Search Tree
+### Binary Search Tree
 
 	Search in a Binary Search Tree
 	Solution
@@ -237,7 +247,9 @@ has_children: true
 	Solution
 	Medium
 
-## Graphs - DFS
+## Graphs 
+
+### Depth First Search
 
 	Keys and Rooms
 	Solution
@@ -255,7 +267,7 @@ has_children: true
 	Solution
 	Medium
 
-## Graphs - BFS
+### Breadth First Search
 
 	Nearest Exit from Entrance in Maze
 	Solution
@@ -275,7 +287,9 @@ has_children: true
 	Solution
 	Medium
 
-## DP - 1D
+## Dynamic Programming
+
+### 1 dimensional
 	N-th Tribonacci Number
 	Solution
 	Easy
@@ -292,7 +306,7 @@ has_children: true
 	Solution
 	Medium
 
-## DP - Multidimensional
+### Multidimensional
 
 	Unique Paths
 	Solution

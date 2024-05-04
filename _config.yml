@@ -13,3 +13,16 @@ aux_links:
   CCSC:SE: http://ccscse.org/programming_contest/problems/
 
 footer_content: "Copyright &copy; 2024 Syed Fahad Sultan. Distributed by an <a href=\"https://github.com/just-the-docs/just-the-docs/tree/main/LICENSE.txt\">MIT license.</a>"
+
+callouts:
+  deadline:
+    title: Deadline
+    color: red
+  warning:
+    title: Warning
+    color: red
+  notice:
+    color: yellow
+  tip:
+    color: green
+    title: Tip
