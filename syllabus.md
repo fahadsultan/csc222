@@ -13,25 +13,24 @@ has_toc: true
 
 The breakdown of the course grade is as follows:
 
-* 30% - Class Participation
-* 30% - In-Class Problem Solving
-* 20% - Mock Interviews
-* 50% - Problem Solving Assignments
+* 15 % - Attendance
+* 15 % - In-Class Problem Solving
+* 20 % - Assignments
+* 25 % - Competitions
+* 25 % - Mock interviews
 
-## What are on-campus MayX courses?
+Grade Scale:
 
-* Optional, innovative, and interdisciplinary 2 credit courses.
-* 2 credit experiences, not typical 4 credit semester courses.
-* Students do not pay extra tuition for On-Campus May Experience courses.
-* Students do pay for room and board (~$900). Scholarships are available.
-* Students may only take one MayX per year and faculty can only teach one per year.
- 
-MayX courses...
-* cannot be offered during the Fall or Spring Terms
-* cannot be required for a major or minor (though they can be electives)
-* cannot be independent studies 
+* A: 90-100
+* B: 80-89
+* C: 70-79
+* D: 60-69
+* F: 0-59
 
-## Prerequisite of the course
++/- grades will be assigned at the instructor's discretion.
+
+
+## Prerequisites
 
 **CSC-121**: Introduction to Computer Programming
  
@@ -40,7 +39,7 @@ MayX courses...
 
 ## Course Description
 
-This course is designed to prepare students for programming competitions and coding interviews. Every meeting will include a problem solving session where students will be expected to solve problems in a limited time frame. The problems will be selected from previous national and regional competitions and commonly given problems in technical interviews. The instructor will provide guidance and feedback to the teams after the problem solving sessions. The class is going to be modelled as a course-length tournament and/or game show. 
+This course is designed to prepare students for [Programming Competitions](fun.html) and [Coding Interviews](profit.html). Every meeting will include a problem solving session where students will be expected to solve problems in a limited time frame. The problems will be selected from previous national and regional competitions and commonly given problems in technical interviews. The instructor will provide guidance and feedback to the teams after the problem solving sessions. The class is going to be modelled as a course-length tournament and/or game show. 
 
 Students will also be expected to complete assignments for practice and to participate in external programming contests and mock coding interviews. 
 
@@ -60,111 +59,73 @@ Students will also be expected to complete assignments for practice and to parti
 
 ## Meeting Times
 
-There is, by design, great variety in meeting times and patterns for MayX courses. Most MayX classes typically meet regularly four or five days a week. May Experience typically involves 15 or 16 possible meeting days (instructors decide whether to meet on Memorial Day or not) and all work must take place entirely within the three week period indicated by the academic calendar.
+The class meets all 5 weekdays,  <b><u>Monday through Friday</u></b>, for 3 hours each day from <u><b>9:30 AM - 12:30 PM</b></u>.
 
-Since average meeting times vary widely, please discuss the figures below with the Faculty Coordinator of the On-Campus May Experience before submitting your proposal to Curriculum.
+The course is comprised of **15 meetings** from **May 8th - May 29th**, 2024.
+
+There will be **no meeting** on **Memorial Day** on May 27th, 2024.
+
+You are expected to work outside of class for at least 1.5 hours a weekday. This is a 2 credit course and you should expect to spend at least 4.5 hours a day on this course.
 
 As a rule of thumb, students should expect a minimum average total commitment of in- and out-of-class work time (broadly defined) of approximately 4.5 hours a day, 5 days a week, for 3 weeks (15 official class days) for a grand total of approximately 67.5 hours.
 
 This 67.5 hours (half of the expectations for a typical 4 credit class) represents an approximate total of in-class meetings and out-of-class conferences, reading, media viewing, problem solving, writing, practice, preparation, labs, reflection, fieldwork, workshopping, etc.
 
 4.5 hours a day * 5 days a week * for 3 weeks (15 official class days) = ~ 67.5 hours
- 
-## How often do on-campus MayX courses meet?
 
-May 10 - May 31, 2023 (2 partial weeks and 2 full weeks) for 15 total meetings.
-Classes typically do not meet on weekends and Memorial Day (instructor's choice).
-Although instructors decide meeting times and frequencies based on their learning outcomes, classes typically meet 2-3 hours a day (often 9:00 - noon), 4 or 5 days a week, with additional afternoon sessions for workshops, projects, preparation, etc. One of the freedoms of MayX is that there is great variety in meeting times, places, and modes.
-Once again, instructors decide meeting times and frequencies based on their learning outcomes but a good rule of thumb to plan for is about 4.5 hours per day of total in-class + out-of-class work. (4.5 hours a day x 15 days = 67.5 total hours). While some courses involve less contact time, most involve more.
-All student work must be completed during the MayX term (neither before nor after).
-  
-## Hours a Week
-
-Write in how many hours a day your class will meet and how many hours a day (on average) students will enagage in the out-of-class work you outlined above.
- 
-Instructors choose how many days a week class will meet and for how often, though we strongly advise meeting for 4 or 5 days a week.
- 
-Faculty have the option to teach on Memorial Day but it is not required (if meetings are held on Memorial Day, the total number of classes for the term will be 16).
- 
-M-F classes, on average, meet for about 2.5 hours a day and, on average, require an equal amount of out-of-class daily work by students. One model is M-F 9 - noon (class instruction) and then an afternoon session that is more hands-on or independent or group work by students.
- 
-Once again, these numbers are more descriptive than prescriptive and there is great variety from class to class.
-
-## List of Topics 
-
-Keeping in mind that MayX courses typically meet over 15 days, enter a list of course topics and the approximate number of days you expect to spend on each topic:*
-(Enter both TOPIC and TIME (number of class days))
-List course topics and times here.
-
-* Introduction to Programming Contests and Coding Interviews (1 day)
-* Data Structures (2 days)
-* Number Theory (2 days)
-* Geometry (2 days)
-* Dynamic Programming (2 days)
-* Divide and Conquer (2 days)
-* Graph Algorithms (2 days)
-* String Algorithms (2 days)
-
-## Course Format
-MayX class meetings typically contain a mixture of traditional class time and less structured engaged learning activities. The combination of those two types of learning typically lasts 3 to 6 hours a day. To be successful in meeting the objectives for the proposed course, a student will be expected to work approximately the following number of clock hours outside of class in a week: (No response is required to these questions for travel study courses.)
- 
-hour(s) - outside reading*
-5 hour(s) - problem solving*
-hour(s) - writing*
-hour(s) - practice/fieldwork*
-5 hour(s) - individual/group learning activities*
-5 hour(s) - performance practice (music)/studio work (art)/screening (film)*
-hour(s) - laboratory work*
-hour(s) - other*
- (please specify; 40 character limit)
- 
-Describe fully the assignments, such as class discussions, quizzes, essays, tests, presentations, and independent projects, that you will use to assess whether course objectives and student learning outcomes have been achieved.*
- 
-List student assignments/projects here. Include participation and/or engagement grades and an attendance policy.
 
 Each class would contain at least one computer programming problem. Students are expected to turn in at least 80% of the in-class problems within one hour maximum of the end of the class duration. 
 
 To pass the class, students have to be present for at least 80% of the classes. 
-Departmental Information
- 
-Enter a brief description of the relationship your course will have to the sequence of courses in your department. Will there be overlaps of content between your course and others at Furman?*
-(You MUST include or describe ANY overlapping content with other courses - both within and outside of your department).
 
 
 ## Resources
 
-### Textbooks  
+* Programming Interviews: **[LeetCode](https://leetcode.com/)**
+
+* Programming Competitions: **[CCSC Problems](http://ccscse.org/programming_contest/problems/)**
+
+
+## Textbooks  
 List possible text(s) by author and title:
 
-Write in your possible texts here. Since this is a 3 week course, please try to provide all readings for students.
+* [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) by Antti Laaksonen
 
-Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) 2nd ed. 2020 Edition by Antti Laaksonen
+* Guide to Competitive Programming: Learning and Improving Algorithms Through Contests (Undergraduate Topics in Computer Science) 2nd ed. 2020 Edition by Antti Laaksonen
 
-Cracking the Coding Interview: 189 Programming Questions and Solutions 6th Edition by Gayle Laakmann McDowell 
+* Cracking the Coding Interview: 189 Programming Questions and Solutions 6th Edition by Gayle Laakmann McDowell 
 
-Programming Challenges: The Programming Contest Training Manual (Texts in Computer Science) Paperback – January 1, 2003 by Steven S. Skiena, Miguel A. Revilla 
+* Programming Challenges: The Programming Contest Training Manual (Texts in Computer Science) Paperback – January 1, 2003 by Steven S. Skiena, Miguel A. Revilla 
 
-Competitive Programming in Python 1st Edition by Christoph Dürr
+* Competitive Programming in Python 1st Edition by Christoph Dürr
 
-Competitive Programming 4 - Book 2 Paperback – July 18, 2020 by Steven Halim
+* Competitive Programming 4 - Book 2 Paperback – July 18, 2020 by Steven Halim
  
-Enter other resources required (computer hardware/software, videos, films, etc.):
-Describe resources here.
 
 Leet code Premium membership for all students (35 USD a month) for duration of the semester
 
-### Similar Courses at other universities: 
+## Similar Courses at other universities
 
-Stonybrook: CSE 300X - Programming Challenges
-UIUC: CS 491: Advanced Competitive Programming
-Stanford: CS 97SI: Introduction to Programming Contests
-CMU: 15-295: Competitive Programming and Problem Solving
-UT Austin: CS104c: Competitive Programming
-National University of Singapore: CS3233: Competitive Programming
+- [Programming Problems](http://ccscse.org/programming_contest/problems/) from **SIGCSE: SE** competition in the past years. 
 
-## Travel
+- [Competitive Programming](https://luddy.iupui.edu/degrees/courses/csci-b392) at **University of Indiana**
 
-The course may involve some travelling for programming competitions taking place in May. 
+- [Competitive Programming Essentials, Master Algorithms 2023](https://www.udemy.com/course/competitive-programming-algorithms-coding-minutes/) at **Udemy**
+
+* [Competitive Programming](https://www.cs.purdue.edu/homes/ninghui/courses/cp_resources.html) at **Purdue**. 
+
+* [Stonybrook: CSE 300X - Programming Challenges](https://www3.cs.stonybrook.edu/~skiena/392/)
+
+* [UIUC: CS 491: Advanced Competitive Programming](https://cs.illinois.edu/academics/courses/cs491cap)
+
+* [Stanford: CS 97SI: Introduction to Programming Contests](https://web.stanford.edu/class/cs97si/)
+
+* [CMU: 15-295: Competitive Programming and Problem Solving](https://contest.cs.cmu.edu/295/)
+
+* [UT Austin: CS104c: Competitive Programming](https://www.cs.utexas.edu/users/downing/cs104c/)
+
+* [National University of Singapore: CS3233: Competitive Programming](https://nusmods.com/courses/CS3233/competitive-programming)
+
 
 ## Poster 
 

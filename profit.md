@@ -1,17 +1,18 @@
 ---
 layout: default
-title: For Profit 💰<br/>(Technical Interviews)
+title: For Profit 💰
 nav_order: 4
 has_toc: true
-has_children: true
+has_children: false
 ---
 
 # **For Profit** 💰: Technical Interviews
 {: .no_toc }
 
-🎥 [Software Engineering Job Interview - Full Mock Interview](https://www.youtube.com/watch?v=1qw5ITr3k9E&ab_channel=freeCodeCamp.org)
-
 <center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1qw5ITr3k9E?si=CzvGeklc2dh8EM0n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1t1_a1BZ04o?si=U-JRnyz2buy1HQqC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -21,69 +22,7 @@ has_children: true
 {:toc}
 
 
-## Array / String
 
-    * Merge Strings Alternately, Solution, Easy
-
-    * Greatest Common Divisor of Strings, Solution, Easy
-
-    * Kids With the Greatest Number of Candies, Solution, Easy
-
-    * Can Place Flowers, Solution, Easy
-
-    * Reverse Vowels of a String, Solution, Easy
-
-    * Reverse Words in a String
-	Solution
-	Medium
-
-	Product of Array Except Self
-	Solution
-	Medium
-
-	Increasing Triplet Subsequence
-	Solution
-	Medium
-
-	String Compression
-	Solution
-	Medium
-
-## Two Pointers
-
-	Move Zeroes
-	Solution
-	Easy
-
-	Is Subsequence
-	Solution
-	Easy
-
-	Container With Most Water
-	Solution
-	Medium
-
-	Max Number of K-Sum Pairs
-	Solution
-	Medium
-
-## Sliding Window
-
-	Maximum Average Subarray I
-	Solution
-	Easy
-
-	Maximum Number of Vowels in a Substring of Given Length
-	Solution
-	Medium
-
-	Max Consecutive Ones III
-	Solution
-	Medium
-
-	Longest Subarray of 1's After Deleting One Element
-	Solution
-	Medium
 
 ## Prefix Sum
 
@@ -95,234 +34,8 @@ has_children: true
 	Solution
 	Easy
 
-## Hash Map / Set
 
-	Find the Difference of Two Arrays
-	Solution
-	Easy
 
-	Unique Number of Occurrences
-	Solution
-	Easy
-
-	Determine if Two Strings Are Close
-	Solution
-	Medium
-
-	Equal Row and Column Pairs
-	Solution
-	Medium
-
-## Binary Search
-
-	Guess Number Higher or Lower
-	Solution
-	Easy
-
-	Successful Pairs of Spells and Potions
-	Solution
-	Medium
-
-	Find Peak Element
-	Solution
-	Medium
-
-	Koko Eating Bananas
-	Solution
-	Medium
-
-## Stack
-	Removing Stars From a String
-	Solution
-	Medium
-
-	Asteroid Collision
-	Solution
-	Medium
-
-	Decode String
-	Solution
-	Medium
-
-### Monotonic Stack
-
-	Daily Temperatures
-	Solution
-	Medium
-
-	Online Stock Span
-	Solution
-	Medium
-	
-## Queue
-	Number of Recent Calls
-	Solution
-	Easy
-
-	Dota2 Senate
-	Solution
-	Medium
-
-### Heap / Priority Queue
-
-	Kth Largest Element in an Array
-	Solution
-	Medium
-
-	Smallest Number in Infinite Set
-	Solution
-	Medium
-
-	Maximum Subsequence Score
-	Solution
-	Medium
-
-	Total Cost to Hire K Workers
-	Solution
-	Medium
-
-## Linked List
-
-	Delete the Middle Node of a Linked List
-	Solution
-	Medium
-
-	Odd Even Linked List
-	Solution
-	Medium
-
-	Reverse Linked List
-	Solution
-	Easy
-
-	Maximum Twin Sum of a Linked List
-	Solution
-	Medium
-
-## Binary Tree
-
-### Depth First Search
-
-	Maximum Depth of Binary Tree
-	Solution
-	Easy
-
-	Leaf-Similar Trees
-	Solution
-	Easy
-
-	Count Good Nodes in Binary Tree
-	Solution
-	Medium
-
-	Path Sum III
-	Solution
-	Medium
-
-	Longest ZigZag Path in a Binary Tree
-	Solution
-	Medium
-
-	Lowest Common Ancestor of a Binary Tree
-	Solution
-	Medium
-
-### Breadth First Search
-
-	Binary Tree Right Side View
-	Solution
-	Medium
-
-	Maximum Level Sum of a Binary Tree
-	Solution
-	Medium
-
-### Binary Search Tree
-
-	Search in a Binary Search Tree
-	Solution
-	Easy
-
-	Delete Node in a BST
-	Solution
-	Medium
-
-## Graphs 
-
-### Depth First Search
-
-	Keys and Rooms
-	Solution
-	Medium
-
-	Number of Provinces
-	Solution
-	Medium
-
-	Reorder Routes to Make All Paths Lead to the City Zero
-	Solution
-	Medium
-
-	Evaluate Division
-	Solution
-	Medium
-
-### Breadth First Search
-
-	Nearest Exit from Entrance in Maze
-	Solution
-	Medium
-
-	Rotting Oranges
-	Solution
-	Medium
-
-## Backtracking
-
-	Letter Combinations of a Phone Number
-	Solution
-	Medium
-
-	Combination Sum III
-	Solution
-	Medium
-
-## Dynamic Programming
-
-### 1 dimensional
-	N-th Tribonacci Number
-	Solution
-	Easy
-
-	Min Cost Climbing Stairs
-	Solution
-	Easy
-
-	House Robber
-	Solution
-	Medium
-
-	Domino and Tromino Tiling
-	Solution
-	Medium
-
-### Multidimensional
-
-	Unique Paths
-	Solution
-	Medium
-
-	Longest Common Subsequence
-	Solution
-	Medium
-
-	Best Time to Buy and Sell Stock with Transaction Fee
-	Solution
-	Medium
-
-	Edit Distance
-	Solution
-	Medium
 
 ## Bit Manipulation
 
