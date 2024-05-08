@@ -6,12 +6,12 @@ has_children: false
 parent: Algorithms
 ---
 
-## Backtracking
-
+# Backtracking
+<!-- 
 	Letter Combinations of a Phone Number
 	Solution
 	Medium
 
 	Combination Sum III
 	Solution
-	Medium
+	Medium -->

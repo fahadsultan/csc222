@@ -8,7 +8,7 @@ logo: "assets/logo.png"
 url: https://fahadsultan.com/csc222
 
 aux_links:
-  Moodle: https://courses.furman.edu
+  Course Moodle Page: https://courses.furman.edu/course/view.php?id=18041#section-0
   LeetCode: https://leetcode.com
   CCSC:SE: http://ccscse.org/programming_contest/problems/
 
@@ -22,6 +22,9 @@ callouts:
     title: Warning
     color: red
   notice:
+    color: yellow
+  note:
+    title: Note
     color: yellow
   tip:
     color: green

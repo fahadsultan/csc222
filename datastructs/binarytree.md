@@ -6,11 +6,11 @@ has_children: false
 parent: Data Structures
 ---
 
-## Binary Tree
+# Binary Tree
 
-### Depth First Search
+## Depth First Search
 
-	Maximum Depth of Binary Tree
+<!-- Maximum Depth of Binary Tree
 	Solution
 	Easy
 
@@ -32,10 +32,11 @@ parent: Data Structures
 
 	Lowest Common Ancestor of a Binary Tree
 	Solution
-	Medium
+	Medium -->
 
-### Breadth First Search
+## Breadth First Search
 
+<!--
 	Binary Tree Right Side View
 	Solution
 	Medium
@@ -43,10 +44,11 @@ parent: Data Structures
 	Maximum Level Sum of a Binary Tree
 	Solution
 	Medium
+-->
 
+# Binary Search Tree
 
-### Binary Search Tree
-
+<!--
 	Search in a Binary Search Tree
 	Solution
 	Easy
@@ -54,3 +56,4 @@ parent: Data Structures
 	Delete Node in a BST
 	Solution
 	Medium
+-->

@@ -6,7 +6,9 @@ has_children: false
 parent: Data Structures
 ---
 
-## Stack
+# Stack
+
+<!--
 	Removing Stars From a String
 	Solution
 	Medium
@@ -18,9 +20,11 @@ parent: Data Structures
 	Decode String
 	Solution
 	Medium
+-->
 
-### Monotonic Stack
+## Monotonic Stack
 
+<!--
 	Daily Temperatures
 	Solution
 	Medium
@@ -28,4 +32,4 @@ parent: Data Structures
 	Online Stock Span
 	Solution
 	Medium
-	
+-->

@@ -16,11 +16,11 @@ I am excited to talk about Programming Competitions 💻🏅🏆 and Interviews 
 👇🏾 Below, you can find important links and important announcements.
 
 {: .deadline}
-**[Assignment 1]()** is due on **May 15th, 2024**. 
+**[Assignment 1](assignments/assignment1.html)** is due on **May 9th, 2024**. 
 
 
-{: .notice }
-Please fill out the pre-course survey. 
+{: .note }
+Please fill out the **[Pre-Course Survey](https://courses.furman.edu/mod/feedback/view.php?id=690759)**. 
 
 {:.tip}
 **Drop by my office**: Riley Hall 200-D. I am in my office between 9 AM - 5 PM most weekdays and have an **open-door policy**! Alternatively, send me an email or **[schedule an appointment](https://calendly.com/ssultan-dpq/)**

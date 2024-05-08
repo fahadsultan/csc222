@@ -7,8 +7,9 @@ has_children: false
 parent: Data Structures
 ---
 
-## Linked List
+# Linked List
 
+<!-- 
 	Delete the Middle Node of a Linked List
 	Solution
 	Medium
@@ -24,3 +25,5 @@ parent: Data Structures
 	Maximum Twin Sum of a Linked List
 	Solution
 	Medium
+
+ -->

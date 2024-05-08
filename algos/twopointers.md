@@ -3,12 +3,13 @@ layout: default
 title: Two Pointers
 nav_order: 2
 has_children: false
-parent: Algorithms
+# parent: Algorithms
+nav_exclude: true
 ---
 
 ## Two Pointers
 
-	Move Zeroes
+<!-- Move Zeroes
 	Solution
 	Easy
 
@@ -22,4 +23,4 @@ parent: Algorithms
 
 	Max Number of K-Sum Pairs
 	Solution
-	Medium
+	Medium -->

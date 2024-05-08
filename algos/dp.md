@@ -7,7 +7,7 @@ parent: Algorithms
 ---
 
 ## Dynamic Programming
-
+<!-- 
 ### 1 dimensional
 	N-th Tribonacci Number
 	Solution
@@ -41,4 +41,4 @@ parent: Algorithms
 
 	Edit Distance
 	Solution
-	Medium
+	Medium -->

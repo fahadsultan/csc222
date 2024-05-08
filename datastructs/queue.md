@@ -7,7 +7,9 @@ has_children: false
 parent: Data Structures
 ---
 
-## Queue
+# Queue
+
+<!--
 	Number of Recent Calls
 	Solution
 	Easy
@@ -15,9 +17,10 @@ parent: Data Structures
 	Dota2 Senate
 	Solution
 	Medium
-
+-->
 ### Heap / Priority Queue
 
+<!--
 	Kth Largest Element in an Array
 	Solution
 	Medium
@@ -33,3 +36,4 @@ parent: Data Structures
 	Total Cost to Hire K Workers
 	Solution
 	Medium
+-->

@@ -6,11 +6,11 @@ has_children: false
 parent: Data Structures
 ---
 
-## Graphs 
+# Graphs 
 
-### Depth First Search
+## Depth First Search
 
-	Keys and Rooms
+<!-- Keys and Rooms
 	Solution
 	Medium
 
@@ -24,10 +24,11 @@ parent: Data Structures
 
 	Evaluate Division
 	Solution
-	Medium
+	Medium -->
 
-### Breadth First Search
+## Breadth First Search
 
+<!--
 	Nearest Exit from Entrance in Maze
 	Solution
 	Medium
@@ -35,4 +36,4 @@ parent: Data Structures
 	Rotting Oranges
 	Solution
 	Medium
-
+-->

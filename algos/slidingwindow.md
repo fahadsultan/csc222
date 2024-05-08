@@ -3,12 +3,13 @@ layout: default
 title: Sliding Window
 nav_order: 1
 has_children: false
-parent: Algorithms
+# parent: Algorithms
+nav_exclude: true
 ---
 
 ## Sliding Window
 
-	Maximum Average Subarray I
+<!-- Maximum Average Subarray I
 	Solution
 	Easy
 
@@ -22,4 +23,4 @@ parent: Algorithms
 
 	Longest Subarray of 1's After Deleting One Element
 	Solution
-	Medium
+	Medium -->

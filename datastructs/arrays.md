@@ -6,9 +6,10 @@ has_children: false
 parent: Data Structures 
 ---
 
-## Array / String
+# Array / String
 
-    * Merge Strings Alternately, Solution, Easy
+<!-- 
+	* Merge Strings Alternately, Solution, Easy
 
     * Greatest Common Divisor of Strings, Solution, Easy
 
@@ -32,4 +33,5 @@ parent: Data Structures
 
 	String Compression
 	Solution
-	Medium
+	Medium 
+	-->

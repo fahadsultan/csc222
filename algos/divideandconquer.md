@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Divide and Conquer
+title: Divide & Conquer
 nav_order: 3
 has_children: false
 parent: Algorithms
 ---
 
+# Divide and Conquer
+
 ## Binary Search
 
+<!-- 
 	Guess Number Higher or Lower
 	Solution
 	Easy
@@ -22,4 +25,5 @@ parent: Algorithms
 
 	Koko Eating Bananas
 	Solution
-	Medium
+	Medium 
+-->
