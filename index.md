@@ -23,7 +23,11 @@ I am excited to talk about Programming Competitions 💻🏅🏆 and Interviews 
 Please fill out the **[Pre-Course Survey](https://courses.furman.edu/mod/feedback/view.php?id=690759)**. 
 
 {:.tip}
-**Drop by my office**: Riley Hall 200-D. I am in my office between 9 AM - 5 PM most weekdays and have an **open-door policy**! Alternatively, send me an email or **[schedule an appointment](https://calendly.com/ssultan-dpq/)**
+For MayX, <i><u>office hours are by appointment only</u></i>. Please schedule an appointment **[using this link](https://calendly.com/ssultan-dpq/)**. Alternatively, **send me an email** with your questions or concerns.
+
+<!-- 
+**[schedule an appointment](https://calendly.com/ssultan-dpq/)**
+**Drop by my office**: Riley Hall 200-D. I am in my office between 9 AM - 5 PM most weekdays and have an **open-door policy**! Alternatively, send me an email or  -->
 
 
 <br/>

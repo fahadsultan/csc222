@@ -11,7 +11,7 @@ has_toc: true
 
 ## Meeting Times
 
-The class meets all 5 weekdays,  <b><u>Monday through Friday</u></b>, for 3 hours each day from <u><b>9:30 AM - 12:30 PM</b></u>.
+The class meets all 5 weekdays,  <b><u>Monday through Friday</u></b>, for 3 hours each day from <u><b>9:30 AM - 12:30 PM</b></u> in <b><u>Riley Hall 106</u></b>. 
 
 The course is comprised of **15 meetings** from **May 8th - May 29th**, 2024.
 

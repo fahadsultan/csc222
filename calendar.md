@@ -15,16 +15,16 @@ This is a tentative schedule and is subject to change.
 
 | Week  | Meeting | Date | Day | Topic | Assignment |
 |:---------:|:-------:|:------:|:------:|:-----:|:-------:| :-------:|
- | 1 | 1 | 8 | Wednesday | Introduction | [Assignment 1](assignments/assignment1.html) |
-| 1 | 2 |   9 | Thursday | [Arrays + Strings](datastructs/arrays.html) |
-| 1 | 3 |  10 | Friday | [Two Pointers](algos/twopointers.md) + [Sliding Window](algos/slidingwindow.md) |
+ | 1 | 1 | 08 | Wednesday | Introduction | [Assignment 1](assignments/assignment1.html) |
+| 1 | 2 |   09 | Thursday | [Time Complexity](http://fahadsultan.com/csc222/general.html#big-o-notation)  |
+| 1 | 3 |  10 | Friday | [Brute Force]() + <br> [Decrease & Conquer]() + <br> [Divide & Conquer]() |
 
 
 ### Week 2
 
 | Week  | Meeting | Date | Day | Topic | Assignment |
 |:---------:|:-------:|:------:|:------:|:-----:|:-------:| :-------:|
-| 2 | 4  |  13 | Monday | [Brute Force]() + <br> [Decrease & Conquer]() + <br> [Divide & Conquer]() |  |
+| 2 | 4  |  13 | Monday | [Arrays + Strings](datastructs/arrays.html) + [Two Pointers](algos/twopointers.md) + [Sliding Window](algos/slidingwindow.md) |  |
 | 2 | 5  | 14 | Tuesday | Stacks and Queues | |
 | 2 | 6  | 15 | Wednesday | Priority Queue | |
 | 2 | 7  | 16 | Thursday | Hash Map | |

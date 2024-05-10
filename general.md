@@ -1,12 +1,12 @@
 ---
 layout: default
-title: General Topics
+title: General Advice
 nav_order: 5
 has_toc: true
 has_children: false
 ---
 
-# General Topics
+# General Advice
 {: .no_toc }
 
 This section contains general topics that are not specific to any particular data structure or algorithm.
@@ -14,6 +14,14 @@ This section contains general topics that are not specific to any particular dat
 1. TOC 
 {:toc}
 
+
+## Iterative Problem Solving
+
+<br/>
+
+<center>
+<img src="https://i.ibb.co/BG5s6vW/cracking-the-coding-skills-v6.png" width="100%" style="filter:invert(100%);border-width:1px;border-style:solid;border-color:black">
+</center>
 
 ## Communication
 
@@ -88,76 +96,4 @@ After each competition or interview, take the time to reflect on what went well 
 
 
 
-## Big O Notation
-
-Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. It is commonly used to describe the performance or complexity of an algorithm.
-
-### Common Time Complexities
-
-| Notation | Name | Example |
-|----------|------|---------|
-| O(1)     | Constant | Accessing an element in an array by index |
-| O(log n) | Logarithmic | Binary search |
-| O(n)     | Linear | Finding the maximum element in an array |
-| O(n log n) | Linearithmic | Merge sort |
-| O(n^2) | Quadratic | Bubble sort |
-| O(n^3) | Cubic | Matrix multiplication |
-| O(2^n) | Exponential | Recursive Fibonacci |
-| O(n!) | Factorial | Permutations of a list |
-
-### Common Space Complexities
-
-| Notation | Name | Example |
-|----------|------|---------|
-| O(1)     | Constant | A fixed number of variables |
-| O(log n) | Logarithmic | Recursive calls |
-| O(n)     | Linear | An array of size n |
-| O(n^2) | Quadratic | A 2D array of size n x n |
-| O(2^n) | Exponential | Recursive calls |
-
-### Rules of Thumb
-
-- Ignore constants: O(2n) = O(n)
-- Ignore lower order terms: O(n^2 + n) = O(n^2)
-- Arithmetic operations are constant time: O(n + 1) = O(n)
-- Nested loops multiply: O(n * m) = O(nm)
-- Sequential statements add: O(n + m) = O(n + m)
-- Different inputs are added: O(n + m)
-- Drop non-dominant terms: O(n^2 + n) = O(n^2)
-
-## Two Pointer Technique
-
-The two pointer technique is a simple and effective algorithmic technique that is used to solve problems involving arrays or linked lists. It involves using two pointers that move through the data structure at different speeds or in different directions to solve the problem.
-
-### Types of Two Pointer Technique
-
-1. **Fast and Slow Pointers**: One pointer moves faster than the other, typically to find a cycle in a linked list or to find the middle of a linked list.
-
-2. **Left and Right Pointers**: Two pointers move from opposite ends of the array towards the middle, typically to find a pair of elements that sum to a target value.
-
-3. **Start and End Pointers**: Two pointers move from the start and end of the array towards the middle, typically to find a subarray that sums to a target value.
-
-### Example Problems
-
-1. **Two Sum**: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-
-2. **Reverse Linked List**: Reverse a singly linked list.
-
-## Sliding Window Technique
-
-The sliding window technique is a common algorithmic technique used to solve problems involving arrays or strings. It involves maintaining a window of elements in the array or string and sliding the window across the data structure to find a solution.	
-
-### Types of Sliding Window Technique
-
-1. **Fixed Size Window**: The window size is fixed, and the window slides one element at a time.
-
-2. **Variable Size Window**: The window size can vary, and the window slides one element at a time.
-
-3. **Two Pointers**: Two pointers are used to maintain the window boundaries.
-
-### Example Problems
-
-1. **Maximum Subarray Sum**: Find the maximum sum of a subarray of size k.
-
-2. **Longest Substring Without Repeating Characters**: Find the length of the longest substring without repeating characters.
 
