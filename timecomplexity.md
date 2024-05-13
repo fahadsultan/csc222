@@ -12,6 +12,10 @@ math: mathjax
 1. TOC 
 {:toc}
 
+{: .notice }
+Try **[Quiz 1](https://forms.gle/EJj8JnTe7WzX7X6R9)** and **[Quiz 2](https://forms.gle/KXqsksBdz6ckz2un7)** for practice
+
+
 Asymptotic analysis is a method of describing limiting behavior. 
 
 <center>

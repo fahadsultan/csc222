@@ -7,6 +7,3 @@ has_children: true
 ---
 
 # Algorithms
-
-
-

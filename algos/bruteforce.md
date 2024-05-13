@@ -4,12 +4,14 @@ title: Brute Force
 nav_order: 0
 has_children: false
 parent: Algorithms
+usemathjax: true
 ---
 
 # Brute Force
 
 1. TOC
 {:toc}
+
 
 <img align="right" width="40%" style="filter:invert(100%);border-style:solid;border-color:black" src="https://images.raidboxes.io/raidboxes.io/uploads/2022/09/wordpress-brute-force-simple-attack.gif">
 
@@ -30,7 +32,7 @@ The table below summarizes the formulas for the size of the search space for dif
 | Combinations, with repetition |  No | Yes | $\frac{(n + k - 1) !}{k! (n-1)!} $ |  Ice-cream sundae |
 | Combinations, without repetition |  No | No | $\frac{n!}{k!(n-k)!}$ |  Subsets |
 
-where $n$ is the number of items to choose from and $k$ is the number of items to choose. Permutations are denoted by $^{n}P_{r}$ or $P(n, r)$ and combinations are denoted by $^{n}C_{r}$ or $C(n, r)$.
+where `n` is the number of items to choose from and $k$ is the number of items to choose. Permutations are denoted by `^{n}P_{r}` or $P(n, r)$ and combinations are denoted by $^{n}C_{r}$ or $C(n, r)$.
 
 <hr/>
 

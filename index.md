@@ -16,7 +16,7 @@ I am excited to talk about Programming Competitions 💻🏅🏆 and Interviews 
 👇🏾 Below, you can find important links and important announcements.
 
 {: .deadline}
-**[Assignment 1](assignments/assignment1.html)** is due on **May 9th, 2024**. 
+**[Assignment 2](assignments/assignment2.html)** is due on **May 15th, 2024**. 
 
 
 {: .note }
