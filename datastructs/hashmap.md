@@ -11,6 +11,12 @@ parent: Data Structures
 
 Hashing is a technique used in data structures to store and retrieve data efficiently. It involves using a hash function to map data items to a fixed-size array which is called a hash table. Hash tables are used in a wide variety of applications, including databases, caching systems, and symbol tables. 
 
+<center>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9oKpRTBfNXo?si=s4hDmSyXX3mnnakP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</center>
+
 Hash sets are collections of distinct elements that are stored in a way that allows for quick access and retrieval. Sets are commonly used in computer science to store unique elements and perform set operations such as union, intersection, and difference.
 
 Sets are collections of distinct elements that are stored in a way that allows for quick access and retrieval. Sets are commonly used in computer science to store unique elements and perform set operations such as union, intersection, and difference.

@@ -24,7 +24,7 @@ This is a tentative schedule and is subject to change.
 
 | Week  | Meeting | Date | Day | Topic | Assignment |
 |:---------:|:-------:|:------:|:------:|:-----:|:-------:| :-------:|
-| 2 | 4  |  13 | Monday | [Arrays + Strings](datastructs/arrays.html) + [Two Pointers](algos/twopointers.md) + [Sliding Window](algos/slidingwindow.md) |  |
+| 2 | 4  |  13 | Monday | [Arrays + Strings](datastructs/arrays.html) + [Two Pointers](algos/twopointers.md) + [Sliding Window](algos/slidingwindow.md) | [Assignment 2](assignments/assignment2.html) |
 | 2 | 5  | 14 | Tuesday | Stacks and Queues | |
 | 2 | 6  | 15 | Wednesday | Priority Queue | |
 | 2 | 7  | 16 | Thursday | Hash Map | |
