@@ -228,7 +228,13 @@ Here are some common problems related to arrays and hashing:
 
 <br/>
 
-* ### [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
+* ### **Question 1**. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
+
+	Easy
+	{: .label .label-green }
+	
+	[Solutions](hashmap(solutions).html)
+	{: .label .label-purple }
 
 	Given an integer array nums, return `true` if any value appears **at least twice** in the array, and return false if every element is distinct.
 
@@ -247,7 +253,13 @@ Here are some common problems related to arrays and hashing:
 
 <br/>
 
-* ### [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+* ### **Question 2**. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
+	Easy
+	{: .label .label-green }
+
+	[Solutions](hashmap(solutions).html)
+	{: .label .label-purple }
 
 	Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise.
 
@@ -275,11 +287,14 @@ Here are some common problems related to arrays and hashing:
 <br/>
 
 
-* ### [Two Sum](https://leetcode.com/problems/two-sum/description/) 	
+* ### **Question 3**. [Two Sum](https://leetcode.com/problems/two-sum/description/) 	
 
 	Easy 
 	{: .label .label-green }
 
+	[Solutions](hashmap(solutions).html)
+	{: .label .label-purple }
+	
 	The **Two Sum Problem** is a classic algorithmic problem that asks the following question: given an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`.
 
 	```python
@@ -297,10 +312,13 @@ Here are some common problems related to arrays and hashing:
 
 <br/>
 
-* ### [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+* ### **Question 4**. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 	Medium
 	{: .label .label-yellow }	
 
+	[Solutions](hashmap(solutions).html)
+	{: .label .label-purple }
+	
 	Given an array of strings `strs`, group the anagrams together. You can return the answer in any order.
 
 	An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
@@ -316,10 +334,13 @@ Here are some common problems related to arrays and hashing:
 	print("All test cases passed")
 	```
 
-* ### [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
+* ### **Question 5**. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)
 	Medium
 	{: .label .label-yellow }	
 
+	[Solutions](hashmap(solutions).html)
+	{: .label .label-purple }
+	
 	Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. You may return the answer in any order.
 
 	```python
@@ -335,11 +356,14 @@ Here are some common problems related to arrays and hashing:
 	print("All test cases passed")
 	``` 
 
-* ### [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
+* ### **Question 6**. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/)
 
 	Medium
 	{: .label .label-yellow }	
 
+	[Solutions](hashmap(solutions).html)
+	{: .label .label-purple }
+	
 	Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 
 	You must write an algorithm that runs in O(n) time.
@@ -355,22 +379,3 @@ Here are some common problems related to arrays and hashing:
 
 	print("All test cases passed")
 	```
-
-
-<!--
-	Find the Difference of Two Arrays
-	Solution
-	Easy
-
-	Unique Number of Occurrences
-	Solution
-	Easy
-
-	Determine if Two Strings Are Close
-	Solution
-	Medium
-
-	Equal Row and Column Pairs
-	Solution
-	Medium
--->

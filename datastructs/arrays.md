@@ -118,6 +118,12 @@ The two pointer technique is a simple and effective algorithmic technique that i
 
 * ### **Question 2**. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
+	Medium
+	{: .label .label-yellow }
+
+	[Solution](arrays(solutions).html)
+	{: .label .label-purple }
+
 Given a **1-indexed** array of integers `numbers` that is already **_sorted in non-decreasing order_**, find two numbers such that they add up to a specific `target` number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `1 <= index1 < index2 <= numbers.length`.
 
 _Return the indices of the two numbers, `index1` and `index2`, **added by one** as an integer array `[index1, index2]` of length 2_.
