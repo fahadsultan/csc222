@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Binary Tree
-nav_order: 7
+title: Trees
+nav_order: 5
 has_children: false
 parent: Data Structures
 ---
 
-# Binary Tree
+# Trees
 
 ## Depth First Search
 

@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Queue / Heap / Priority Queue
-nav_order: 3
+title: Heap / Priority Queue
+nav_order: 5
 has_toc: true
 has_children: false
 parent: Data Structures
 ---
 
-# Queue
+# Heap / Priority Queue
 
 <!--
 	Number of Recent Calls
@@ -18,7 +18,7 @@ parent: Data Structures
 	Solution
 	Medium
 -->
-### Heap / Priority Queue
+<!-- ### Heap / Priority Queue -->
 
 <!--
 	Kth Largest Element in an Array

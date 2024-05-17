@@ -3,110 +3,38 @@ layout: default
 title: Arrays / Strings
 nav_order: 1
 has_children: false
-parent: Data Structures 
+nav_exclude: true
 ---
 
-# Array / String
+# Array / String (Solutions)
 
 1. TOC 
 {:toc}
 
-<!-- 
-	* Merge Strings Alternately, Solution, Easy
-
-    * Greatest Common Divisor of Strings, Solution, Easy
-
-    * Kids With the Greatest Number of Candies, Solution, Easy
-
-    * Can Place Flowers, Solution, Easy
-
-    * Reverse Vowels of a String, Solution, Easy
-
-    * Reverse Words in a String
-	Solution
-	Medium
-
-	Product of Array Except Self
-	Solution
-	Medium
-
-	Increasing Triplet Subsequence
-	Solution
-	Medium
-
-	String Compression
-	Solution
-	Medium 
-	-->
-
-
-<!-- ## Longest Substring Without Repeating Characters
-
-Given a string, find the length of the longest substring without repeating characters.
-
-**Example 1:**
-
-```
-Input: "abcabcbb"
-Output: 3
-Explanation: The answer is "abc", with the length of 3.
-```
-
-Solution:
-
-```python
-def lengthOfLongestSubstring(s: str) -> int:
-	n = len(s)
-	if n <= 1:
-		return n
-
-	i, j, max_len = 0, 0, 0
-	while j < n:
-		if s[j] in s[i:j]:
-			i = i + 1
-		else:
-			j = j + 1
-			max_len = max(max_len, j - i)
-	return max_len
-``` -->
-
-<!-- # Useful Techniques -->
-
-A couple of _"techniques"_ that are neither _data structures_ nor _algorithms_ but are commonly used in solving all kinds of problems are "Two-Pointer" (TP) and "Sliding Window" (SW).
-
-These are not _data structures_ because they don't store data, and they are not _algorithms_ because they don't solve a specific problem. They are more like _strategies_ that can be used to solve a wide variety of problems and are common enough to warrant its own LeetCode tags ([TP tag](https://leetcode.com/tag/two-pointers) and [SW tag](https://leetcode.com/tag/sliding-window/)) and articles ([TP article](https://leetcode.com/articles/two-pointer-technique/) and [SW article]()).
-
-
-
 # Two Pointer Technique
-
-The two pointer technique is a simple and effective algorithmic technique that is used to solve problems involving arrays or linked lists. It involves using two pointers that move through the data structure at different speeds or in different directions to solve the problem.
-
-<br/>
-
-<center>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/On03HWe2tZM?si=KVCDO0p-2C0bbAn9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-</center>
 
 ## Problems
 
 * ### **Question 1**. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
-
+	
 	Easy
 	{: .label .label-green }
 
-	[Solution](arrays(solutions).html)
+	Solution
 	{: .label .label-purple }
-	
+
+
    A phrase is a **palindrome** if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
 
    Given a string `s`, return `true` if it is a _**palindrome**_, or `false` otherwise.
 
 	```python
 	def is_palindrome(s: str) -> bool:
-		pass
+		new = ''
+        for a in s:
+            if a.isalpha() or a.isdigit():
+                new += a.lower()
+        return (new == new[::-1])
 
 	assert is_palindrome("A man, a plan, a canal: Panama") == True, "Test case 1 failed"
 	assert is_palindrome("race a car") == False, "Test case 2 failed"
@@ -118,12 +46,6 @@ The two pointer technique is a simple and effective algorithmic technique that i
 
 * ### **Question 2**. [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
 
-	Medium
-	{: .label .label-yellow }
-
-	[Solution](arrays(solutions).html)
-	{: .label .label-purple }
-
 Given a **1-indexed** array of integers `numbers` that is already **_sorted in non-decreasing order_**, find two numbers such that they add up to a specific `target` number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `1 <= index1 < index2 <= numbers.length`.
 
 _Return the indices of the two numbers, `index1` and `index2`, **added by one** as an integer array `[index1, index2]` of length 2_.
@@ -133,30 +55,64 @@ The tests are generated such that there is **exactly one solution**. You **may n
 <u>Your solution must use only constant extra space</u>.
 
 ```python
-def two_sum(numbers: List[int], target: int) -> List[int]:
-	pass
+def two_sum(numbers, target):
+	l, r = 0, len(numbers)-1
+
+	while l < r: 
+
+		curr_sum = numbers[l] + numbers[r]
+		if curr_sum == target:
+			return [l+1, r+1]
+		elif curr_sum < target:
+			l += 1
+		else:
+			r -= 1
 
 assert two_sum([2,7,11,15], 9) == [1,2], "Test case 1 failed"
 assert two_sum([2,3,4], 6) == [1,3], "Test case 2 failed"
 assert two_sum([-1,0], -1) == [1,2], "Test case 3 failed"
 ```
 
-
 * ### **Question 3.** [3Sum](https://leetcode.com/problems/3sum/description/)
 
 	Easy
 	{: .label .label-green }
 
-	[Solution](arrays(solutions).html)
+	Solution
 	{: .label .label-purple }
-		
+
 	Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.
 
 	Notice that the solution set must not contain duplicate triplets.
 
 	```python
-	def three_sum(nums: List[int]) -> List[List[int]]:
-		pass
+	def three_sum(nums):
+        res = []
+        nums.sort()
+
+        for i, a in enumerate(nums):
+            # Skip positive integers
+            if a > 0:
+                break
+
+            if i > 0 and a == nums[i - 1]:
+                continue
+
+            l, r = i + 1, len(nums) - 1
+            while l < r:
+                threeSum = a + nums[l] + nums[r]
+                if threeSum > 0:
+                    r -= 1
+                elif threeSum < 0:
+                    l += 1
+                else:
+                    res.append([a, nums[l], nums[r]])
+                    l += 1
+                    r -= 1
+                    while nums[l] == nums[l - 1] and l < r:
+                        l += 1
+                        
+        return res
 
 	assert three_sum([-1,0,1,2,-1,-4]) == [[-1,-1,2],[-1,0,1]], "Test case 1 failed"
 	assert three_sum([]) == [], "Test case 2 failed"
@@ -171,7 +127,7 @@ assert two_sum([-1,0], -1) == [1,2], "Test case 3 failed"
 	Medium
 	{: .label .label-yellow }
 
-	[Solution](arrays(solutions).html)
+	Solution
 	{: .label .label-purple }
 
 You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `ith` line are `(i, 0)` and `(i, height[i])`.
@@ -179,7 +135,7 @@ You are given an integer array `height` of length `n`. There are `n` vertical li
 Find two lines that together with the x-axis form a container, such that the container contains the most water.
 
 <center>
-<img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg" style="filter:invert(100%);border-width:1px;border-style:solid;border-color:black;" width="40%">
+<img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg" style="filter:invert(100%);border-width:1px;border-style:solid;border-color:black;" width="70%">
 </center>
 
 _Return the maximum amount of water a container can store_.
@@ -187,8 +143,18 @@ _Return the maximum amount of water a container can store_.
 **Notice** that you may not slant the container.
 
 ```python
-def max_area(height: List[int]) -> int:
-	pass
+def max_area(height):
+	l, r = 0, len(height) - 1
+	res = 0
+
+	while l < r:
+		res = max(res, min(height[l], height[r]) * (r - l))
+		if height[l] < height[r]:
+			l += 1
+		elif height[r] <= height[l]:
+			r -= 1
+		
+	return res
 
 assert max_area([1,8,6,2,5,4,8,3,7]) == 49, "Test case 1 failed"
 assert max_area([1,1]) == 1, "Test case 2 failed"
@@ -208,10 +174,6 @@ The sliding window technique is a common algorithmic technique used to solve pro
 
 3. **Two Pointers**: Two pointers are used to maintain the window boundaries.
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p-ss2JNynmw?si=jiwg-QzgBO06rtzv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</center>
-
 ## Problems
 
 
@@ -220,7 +182,7 @@ The sliding window technique is a common algorithmic technique used to solve pro
 	Easy  
 	{: .label .label-green }
 
-	[Solution](arrays(solutions).html)
+	[Solution]()
 	{: .label .label-purple }
 
 	You are given an array prices where prices[i] is the price of a given stock on the ith day.
@@ -230,8 +192,15 @@ The sliding window technique is a common algorithmic technique used to solve pro
 	Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
 	```python
-	def max_profit(prices: List[int]) -> int:
-		pass
+	def max_profit(prices):
+        res = 0
+        
+        lowest = prices[0]
+        for price in prices:
+            if price < lowest:
+                lowest = price
+            res = max(res, price - lowest)
+        return res
 
 	assert max_profit([7,1,5,3,6,4]) == 5, "Test case 1 failed"
 	assert max_profit([7,6,4,3,1]) == 0, "Test case 2 failed"
@@ -244,7 +213,7 @@ The sliding window technique is a common algorithmic technique used to solve pro
 	Medium
 	{: .label .label-yellow }
 
-	[Solution](arrays(solutions).html)
+	[Solution]()
 	{: .label .label-purple }
 
 	Given a string `s`, find the length of the longest substring without repeating characters.
@@ -257,8 +226,18 @@ The sliding window technique is a common algorithmic technique used to solve pro
 
 
 	```python
-	def length_of_longest_substring(s: str) -> int:
-		pass
+	def length_of_longest_substring(s):
+		charSet = set()
+        l = 0
+        res = 0
+
+        for r in range(len(s)):
+            while s[r] in charSet:
+                charSet.remove(s[l])
+                l += 1
+            charSet.add(s[r])
+            res = max(res, r - l + 1)
+        return res
 
 	assert length_of_longest_substring("abcabcbb") == 3, "Test case 1 failed"
 	assert length_of_longest_substring("bbbbb") == 1, "Test case 2 failed"
@@ -271,7 +250,7 @@ The sliding window technique is a common algorithmic technique used to solve pro
 	Medium
 	{: .label .label-yellow }
 
-	[Solution](arrays(solutions).html)
+	[Solution]()
 	{: .label .label-purple }
 
 	You are given a string `s` and an integer `k`. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most `k` times.
@@ -280,7 +259,19 @@ The sliding window technique is a common algorithmic technique used to solve pro
 
 	```python
 	def character_replacement(s: str, k: int) -> int:
-		pass
+        count = {}
+        
+        l = 0
+        maxf = 0
+        for r in range(len(s)):
+            count[s[r]] = 1 + count.get(s[r], 0)
+            maxf = max(maxf, count[s[r]])
+
+            if (r - l + 1) - maxf > k:
+                count[s[l]] -= 1
+                l += 1
+
+        return (r - l + 1)
 
 	assert character_replacement("ABAB", 2) == 4, "Test case 1 failed"
 	assert character_replacement("AABABBA", 1) == 4, "Test case 2 failed"

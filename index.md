@@ -15,12 +15,15 @@ I am excited to talk about Programming Competitions 💻🏅🏆 and Interviews 
 
 👇🏾 Below, you can find important links and important announcements.
 
+<!-- 
 {: .deadline}
-**[Assignment 2](assignments/assignment2.html)** is due on **May 15th, 2024**. 
+**[Assignment 2](assignments/assignment2.html)** is due on **May 15th, 2024**.  -->
 
+{: .deadline }
+Please carefully read the instructions for **[Mock Interviews](https://docs.google.com/document/d/1J2ADtFX49Vlv0tvQnewbLjki8twdMtSVaIBI1sjmc0o/edit?usp=sharing)** on May 27-28th. 
 
 {: .note }
-Please fill out the **[Pre-Course Survey](https://courses.furman.edu/mod/feedback/view.php?id=690759)**. 
+Please fill out the **[Mid-Course Survey](https://courses.furman.edu/mod/feedback/view.php?id=692819)**. 
 
 {:.tip}
 For MayX, <i><u>office hours are by appointment only</u></i>. Please schedule an appointment **[using this link](https://calendly.com/ssultan-dpq/)**. Alternatively, **send me an email** with your questions or concerns.

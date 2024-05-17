@@ -72,6 +72,12 @@ Linked lists are a fundamental data structure in computer science. They are line
 
 * ### **Question 1.** [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
+Easy
+{: .label .label-green }
+
+Solution
+{: .label .label-purple }
+
 Given the head of a singly linked list, reverse the list, and return the reversed list.
 
 <center>
@@ -95,6 +101,12 @@ print("Test cases passed :)")
 ```
 
 * ### **Question 2.** [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+
+Easy
+{: .label .label-green }
+
+Solution
+{: .label .label-purple }
 
 <center>
 <img src="https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg" style="filter:invert(1);" width="50%">
@@ -124,6 +136,12 @@ print("Test cases passed :)")
 
 ### **Question 3.** [Reorder List](https://leetcode.com/problems/reorder-list/description/)
 
+Medium
+{: .label .label-yellow }
+
+Solution
+{: .label .label-purple }
+
 You are given the head of a singly linked-list. The list can be represented as:
 
 L0 → L1 → … → Ln - 1 → Ln
@@ -150,21 +168,106 @@ assert reorder_list([1,2]) == [1,2], "Test case 3 failed"
 print("Test cases passed :)")
 ```
 
-<!-- 
-	Delete the Middle Node of a Linked List
-	Solution
-	Medium
+### **Question 4.** [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 
-	Odd Even Linked List
-	Solution
-	Medium
+Easy
+{: .label .label-green }
 
-	Reverse Linked List
-	Solution
-	Easy
+Solution
+{: .label .label-purple }
 
-	Maximum Twin Sum of a Linked List
-	Solution
-	Medium
+Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
 
- -->
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the `next` pointer. Internally, `pos` is used to denote the index of the node that tail's `next` pointer is connected to. **Note that `pos` is not passed as a parameter**.
+
+Return `true` if there is a cycle in the linked list. Otherwise, return `false`.
+
+<center>
+<img src="https://assets.leetcode.com/uploads/2018/12/07/circularlinkedlist.png" style="filter:invert(1);" width="50%">
+</center>
+
+```python
+class ListNode:
+	def __init__(self, val=0, next=None):
+		self.val = val
+		self.next = next
+
+def has_cycle(head: ListNode) -> bool:
+	pass
+
+node1 = ListNode(3)
+node2 = ListNode(2)
+node3 = ListNode(0)
+node4 = ListNode(-4)
+
+node1.next = node2
+node2.next = node3
+node3.next = node4
+node4.next = node2
+
+assert has_cycle(node1) == True, "Test case 1 failed"
+
+node1 = ListNode(1)
+node2 = ListNode(2)
+
+node1.next = node2
+node2.next = node1
+
+assert has_cycle(node1) == True, "Test case 2 failed"
+
+node1 = ListNode(1)
+
+assert has_cycle(node1) == False, "Test case 3 failed"
+```
+
+
+### **Question 5.** [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)
+
+Medium
+{: .label .label-yellow }
+
+Solution
+{: .label .label-purple }
+
+Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
+
+<center>
+<img src="https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg" style="filter:invert(1);" width="50%">
+</center>
+
+Follow up: Could you do this in one pass?
+
+```python	
+class ListNode:
+	def __init__(self, val=0, next=None):
+		self.val = val
+		self.next = next
+
+def remove_nth_from_end(head: ListNode, n: int) -> ListNode:
+	pass
+
+node1 = ListNode(1)
+node2 = ListNode(2)
+node3 = ListNode(3)
+node4 = ListNode(4)
+node5 = ListNode(5)
+
+node1.next = node2
+node2.next = node3
+node3.next = node4
+node4.next = node5
+
+assert remove_nth_from_end(node1, 2) == [1,2,3,5], "Test case 1 failed"
+
+node1 = ListNode(1)
+
+assert remove_nth_from_end(node1, 1) == [], "Test case 2 failed"
+
+node1 = ListNode(1)
+node2 = ListNode(2)
+
+node1.next = node2
+
+assert remove_nth_from_end(node1, 1) == [1], "Test case 3 failed"
+```
+
