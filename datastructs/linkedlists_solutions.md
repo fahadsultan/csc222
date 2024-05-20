@@ -5,77 +5,17 @@ nav_order: 4
 has_toc: true
 has_children: false
 parent: Data Structures
+nav_exclude: true
 ---
 
-# Linked List
-
-1. TOC
-{:toc}
-
-Linked lists are a fundamental data structure in computer science. They are linear data structures that consist of nodes, where each node contains a data value and a reference to the next node in the sequence. Linked lists are a dynamic data structure, meaning that they can grow or shrink in size during the execution of a program.
-
-## Types of Linked Lists
-
-<img src="https://i.ibb.co/pwpcPdf/0-0-XVK02-Guco9x-JMJL.png" style="filter:invert(1);">
-
-1. **Singly Linked List**: Each node contains a data value and a reference to the next node in the sequence.
-
-2. **Doubly Linked List**: Each node contains a data value and references to both the next and previous nodes in the sequence.
-
-3. **Circular Linked List**: A linked list in which the last node points back to the first node.
-
-## Operations on Linked Lists
-
-1. **Insertion**: Adding a new node to the linked list.
-
-<center>
-
-<img src="https://cdn.devdojo.com/images/june2021/LinkedList_frontInsertion.gif" style="filter:invert(1);" width="65%">
-
-<img src="https://cdn.devdojo.com/images/june2021/linkedlist-insertfromback1.gif" style="filter:invert(1);" width="65%">
-
-<img src="https://cdn.devdojo.com/images/june2021/LinkedList_IndexInsertion.gif" style="filter:invert(1);" width="65%">
-
-</center>
-
-2. **Deletion**: Removing a node from the linked list.
-
-<center>
-<img src="https://cdn.devdojo.com/images/june2021/Delfront.gif" style="filter:invert(1);" width="65%">
-<img src="https://cdn.devdojo.com/images/june2021/delBack.gif" style="filter:invert(1);" width="65%">
-<img src="https://cdn.devdojo.com/images/june2021/delIndex.gif" style="filter:invert(1);" width="65%">
-</center>
-
-3. **Traversal**: Visiting each node in the linked list.
-
-4. **Search**: Finding a specific node in the linked list.
-
-5. **Update**: Changing the data value of a node in the linked list.
-
-## Advantages of Linked Lists
-
-1. **Dynamic Size**: Linked lists can grow or shrink in size during the execution of a program.
-
-2. **Efficient Insertion and Deletion**: Inserting or deleting a node in a linked list is efficient compared to arrays.
-
-3. **No Memory Wastage**: Linked lists can use memory efficiently by allocating memory only when needed.
-
-## Disadvantages of Linked Lists
-
-1. **Random Access**: Linked lists do not support random access to elements, meaning that you cannot directly access the `i`-th element in a linked list.
-
-2. **Extra Memory**: Linked lists require extra memory to store references to the next node.
-
-3. **Traversal Overhead**: Traversing a linked list requires visiting each node in sequence, which can be slower than accessing elements in an array.
-
-# Problems
+# Linked List Problems
 
 * ### **Question 1.** [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
 Easy
 {: .label .label-green }
 
-[Solution](linkedlists_solutions.html#question-1-reverse-linked-list)
+Solution
 {: .label .label-purple }
 
 Given the head of a singly linked list, reverse the list, and return the reversed list.
@@ -91,7 +31,14 @@ class ListNode:
 		self.next = next
 
 def reverse_list(head: ListNode) -> ListNode:
-	pass
+	curr = head
+	prev = None
+	while curr:
+		next_node = curr.next
+		curr.next = prev
+		prev = curr
+		curr = next_node
+	return prev
 
 assert reverse_list([1,2,3,4,5]) == [5,4,3,2,1], "Test case 1 failed"
 assert reverse_list([1,2]) == [2,1], "Test case 2 failed"
@@ -105,7 +52,7 @@ print("Test cases passed :)")
 Easy
 {: .label .label-green }
 
-[Solution](linkedlists_solutions.html#question-2-merge-two-sorted-lists)
+Solution
 {: .label .label-purple }
 
 <center>
@@ -125,7 +72,16 @@ class ListNode:
 		self.next = next
 
 def merge_two_lists(l1: ListNode, l2: ListNode) -> ListNode:
-	pass
+	if l1 is None:
+		return l2
+	if l2 is None:
+		return l1
+	if l1.val < l2.val:
+		l1.next = merge_two_lists(l1.next, l2)
+		return l1
+	else:
+		l2.next = merge_two_lists(l1, l2.next)
+		return l2
 
 assert merge_two_lists([1,2,4], [1,3,4]) == [1,1,2,3,4,4], "Test case 1 failed"
 assert merge_two_lists([], []) == [], "Test case 2 failed"
@@ -139,18 +95,15 @@ print("Test cases passed :)")
 Medium
 {: .label .label-yellow }
 
-[Solution](linkedlists_solutions.html#question-3-reorder-list)
+Solution
 {: .label .label-purple }
 
 You are given the head of a singly linked-list. The list can be represented as:
 
-`L0 → L1 → … → (Ln - 1) → Ln`
-
+L0 → L1 → … → Ln - 1 → Ln
 Reorder the list to be on the following form:
 
-`L0 → Ln → L1 → (Ln - 1) → L2 → (Ln - 2) → …`
-
-
+L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 You may not modify the values in the list's nodes. Only nodes themselves may be changed.
 
 <img src="https://assets.leetcode.com/uploads/2021/03/04/reorder1linked-list.jpg" style="filter:invert(1);" width="50%">
@@ -162,7 +115,27 @@ class ListNode:
 		self.next = next
 
 def reorder_list(head: ListNode) -> None:
-	pass
+	if not head or not head.next:
+		return head
+
+	# Find the middle of the list
+	slow = fast = head
+	while fast and fast.next:
+		slow = slow.next
+		fast = fast.next.next
+
+	# Reverse the second half of the list
+	prev, curr = None, slow
+	while curr:
+		curr.next, prev, curr = prev, curr, curr.next
+
+	# Merge the two halves
+	first, second = head, prev
+	while second.next:
+		first.next, first = second, first.next
+		second.next, second = first, second.next
+
+	return head
 
 assert reorder_list([1,2,3,4]) == [1,4,2,3], "Test case 1 failed"
 assert reorder_list([1,2,3,4,5]) == [1,5,2,4,3], "Test case 2 failed"
@@ -176,7 +149,7 @@ print("Test cases passed :)")
 Easy
 {: .label .label-green }
 
-[Solution](linkedlists_solutions.html#question-4-linked-list-cycle)
+Solution
 {: .label .label-purple }
 
 Given `head`, the head of a linked list, determine if the linked list has a cycle in it.
@@ -196,7 +169,17 @@ class ListNode:
 		self.next = next
 
 def has_cycle(head: ListNode) -> bool:
-	pass
+	if not head or not head.next:
+		return False
+
+	slow = fast = head
+	while fast and fast.next:
+		slow = slow.next
+		fast = fast.next.next
+		if slow == fast:
+			return True
+
+	return False
 
 node1 = ListNode(3)
 node2 = ListNode(2)
@@ -229,7 +212,7 @@ assert has_cycle(node1) == False, "Test case 3 failed"
 Medium
 {: .label .label-yellow }
 
-[Solution](linkedlists_solutions.html#question-5-remove-nth-node-from-end-of-list)
+Solution
 {: .label .label-purple }
 
 Given the `head` of a linked list, remove the `nth` node from the end of the list and return its head.
@@ -247,7 +230,20 @@ class ListNode:
 		self.next = next
 
 def remove_nth_from_end(head: ListNode, n: int) -> ListNode:
-	pass
+	dummy = ListNode(0)
+	dummy.next = head
+	first = second = dummy
+
+	for i in range(n + 1):
+		first = first.next
+
+	while first:
+		first = first.next
+		second = second.next
+
+	second.next = second.next.next
+
+	return dummy.next
 
 node1 = ListNode(1)
 node2 = ListNode(2)
