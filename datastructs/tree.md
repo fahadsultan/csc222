@@ -38,17 +38,23 @@ Trees are a fundamental data structure in computer science. They are hierarchica
 
 2. **Binary Search Tree (BST)**: A binary tree in which the left subtree of a node contains only nodes with values less than the node's value, and the right subtree contains only nodes with values greater than the node's value.
 
+
 <center>
 <img src="https://miro.medium.com/v2/resize:fit:16000/1*CMGFtehu01ZEBgzHG71sMg.png" style="filter:invert(1);" width="100%">
 </center>
 
-3. **Balanced Binary Tree**: A binary tree in which the heights of the two subtrees of every node differ by at most one.
-
-4. **Complete Binary Tree**: A binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.
 
 5. **Full Binary Tree**: A binary tree in which every node has either zero or two children.
 
+4. **Complete Binary Tree**: A binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.
+
+5. **Degenerate Tree**: A tree in which each parent node has only one child node.
+
 6. **Perfect Binary Tree**: A binary tree in which all interior nodes have two children and all leaves have the same depth or same level.
+
+3. **Balanced Binary Tree**: A binary tree in which the heights of the two subtrees of every node differ by at most one.
+
+
 
 ## Properties of Trees
 
