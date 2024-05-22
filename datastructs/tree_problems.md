@@ -19,7 +19,7 @@ parent: Trees
 Easy
 {: .label .label-green }
 
-Solution
+[Solution](tree_solutions.html#question-1-invert-binary-tree)
 {: .label .label-purple }
 
 Given the `root` of a binary tree, invert the tree, and return _its_ root.
@@ -60,7 +60,7 @@ print("Test cases passed :)")
 Easy
 {: .label .label-green }
 
-Solution
+[Solution](tree_solutions.html#question-2-maximum-depth-of-binary-tree)
 {: .label .label-purple }
 
 Given the `root` of a binary tree, return its _maximum depth_.
@@ -91,7 +91,7 @@ print("Test cases passed :)")
 Easy
 {: .label .label-green }
 
-Solution
+[Solution](tree_solutions.html#question-3-same-tree)
 {: .label .label-purple }
 
 Given the roots of two binary trees `p` and `q`, write a function to check if they are the same or not.
@@ -127,7 +127,7 @@ print("Test cases passed :)")
 Easy
 {: .label .label-green }
 
-Solution
+[Solution](tree_solutions.html#question-4-subtree-of-another-tree)
 {: .label .label-purple }
 
 Given the roots of two binary trees `root` and `subRoot`, return `true` if there is a subtree of `root` with the same structure and node values of `subRoot` and `false` otherwise.
@@ -163,7 +163,7 @@ print("Test cases passed :)")
 Medium
 {: .label .label-yellow }
 
-Solution
+[Solution](tree_solutions.html#question-5-lowest-common-ancestor-of-a-binary-search-tree)
 {: .label .label-purple }
 
 Given a binary search tree (`BST`), find the lowest common ancestor (`LCA`) of two given nodes in the `BST`.
@@ -237,7 +237,7 @@ print("Test cases passed :)")
 Medium
 {: .label .label-yellow }
 
-Solution
+[Solution](tree_solutions.html#question-6-count-good-nodes-in-binary-tree)
 {: .label .label-purple }
 
 Given a binary tree, return the number of good nodes in the tree.
@@ -277,7 +277,7 @@ print("Test cases passed :)")
 Medium
 {: .label .label-yellow }
 
-Solution
+[Solution](tree_solutions.html#question-7-validate-binary-search-tree)
 {: .label .label-purple }
 
 Given the `root` of a binary tree, determine if it is a valid binary search tree (BST).
