@@ -133,69 +133,6 @@ def is_bit_set(n, i):
     return (n & (1 << i)) != 0
 ```
 
-### 7. Count the Number of Set Bits
-
-To count the number of set bits (1s) in a binary number, you can use the following algorithm, known as the Brian Kernighan's Algorithm. The algorithm works by repeatedly flipping the least significant 1 bit to 0.
-
-```python
-
-def count_set_bits(n):
-    count = 0
-    while n:
-        n = n & (n - 1)
-        count += 1
-    return count
-```
-
-### 8. Find the Missing Number
-
-To find the missing number in an array of integers from 0 to `n`, you can use the XOR operator. The XOR operator has the property that `a ^ a = 0` and `a ^ 0 = a`. By XORing all the numbers in the array with the numbers from 0 to `n`, the missing number will be left.
-
-```python
-def find_missing_number(nums):
-    n = len(nums)
-    missing = n
-    for i in range(n):
-        missing ^= i ^ nums[i]
-    return missing
-```
-
-### 9. Find the Single Number
-
-To find the single number in an array of integers where every element appears twice except for one, you can use the XOR operator. The XOR operator has the property that `a ^ a = 0` and `a ^ 0 = a`. By XORing all the numbers in the array, the single number will be left.
-
-```python
-
-def find_single_number(nums):
-    single = 0
-    for num in nums:
-        single ^= num
-    return single
-```
-
-### 10. Find the Two Single Numbers
-
-To find the two single numbers in an array of integers where every element appears twice except for two, you can use the XOR operator. The XOR operator has the property that `a ^ a = 0` and `a ^ 0 = a`. By XORing all the numbers in the array, you will be left with the XOR of the two single numbers. You can then find the rightmost set bit in the XOR result and partition the numbers based on that bit.
-
-```python
-
-def find_two_single_numbers(nums):
-    xor = 0
-    for num in nums:
-        xor ^= num
-
-    rightmost_set_bit = xor & -xor
-
-    single1, single2 = 0, 0
-    for num in nums:
-        if num & rightmost_set_bit:
-            single1 ^= num
-        else:
-            single2 ^= num
-
-    return single1, single2
-```
-
 # Problems
 
 * ### **Question 1.** [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)
@@ -330,6 +267,36 @@ def missing_number(nums):
 assert missing_number([3,0,1]) == 2, "Test case 1 failed"
 assert missing_number([0,1]) == 2, "Test case 2 failed"
 assert missing_number([9,6,4,2,3,5,7,0,1]) == 8, "Test case 3 failed"
+```
+
+* ### **Question 5.** [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)
+
+Medium
+{: .label .label-yellow }
+
+Given two integers `a` and `b`, return the sum of the two integers without using the operators `+` and `-`.
+
+**Example 1:**
+
+```
+Input: a = 1, b = 2
+Output: 3
+```
+
+**Example 2:**
+
+```
+Input: a = -2, b = 3
+Output: 1
+```
+
+```python
+def get_sum(a, b):
+    pass
+
+assert get_sum(1, 2) == 3, "Test case 1 failed"
+assert get_sum(-2, 3) == 1, "Test case 2 failed"
+assert get_sum(-1, 1) == 0, "Test case 3 failed"
 ```
 
 
