@@ -1,0 +1,4 @@
+3
+Model 70 wool 6
+Model 97 velvet 7 1/2
+Model 86 straw 6 5/8
