@@ -40,10 +40,10 @@ This is a tentative schedule and is subject to change.
 | Meeting | Date | Day | Topic | 
 |:-------:|:------:|:------:|:-----| 
 | 9  | 20 | Monday | [Trees](datastructs/tree.html) |
-| 10  | 21 | Tuesday | [Backtracking](algos/backtracking.html) | 
+| 10  | [21]() | Tuesday | [Backtracking](algos/backtracking.html) | 
 | 11  | 22 | Wednesday | [Graphs](datastructs/graphs.html) |
-| 12  | 23 | Thursday | [Dynamic Programming](algos/dp.html) |
-| 13  | 24 | Friday |  |
+| 12  | [23](https://colab.research.google.com/drive/1MWKTTNxkf3FHsDDl81wpkSKQ9pBmu1aE?usp=sharing) | Thursday | [Dynamic Programming](algos/dp.html) |
+| 13  | [24](https://colab.research.google.com/drive/1QlkdltWSVmKSPl372_y_qRl4vqRHBp28?usp=sharing) | Friday |  [Bit Manipulation](datastructs/bitmanipulation.md) |
 
 ### Week 4
 
